@@ -1,7 +1,5 @@
 #Practica 2 de PL - CSV
+##Analizador de CSV (Comma Separated Value)
 
-##Conversor de Comma Separated Values a tabla.
-
-Realizado por Laura A. Gomez Glez.
-
+Realizado por Laura A. Gomez Glez. 
 Email: alu0100698244@ull.edu.es
