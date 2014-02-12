@@ -10,7 +10,7 @@ function calculate() {
   var result;
   var original       = document.getElementById("original");
   var temp = original.value;
-  var regexp = /\s*"((?:[^"\\]|\\.)*)"\s*,?|([0-9]+(:?\.[0-9]+)*\s*),?|(\s+,),?/g;
+  var regexp = /\s*"((?:[^"\\]|\\.)*)"\s*,?|([0-9]+(?:\.[0-9]+)*\s*),?|(\s+,),?/g;
   //palabras entrecomilladas, numeros sin comillas(opcionalmente decimales x.x) y campos en blanco <, ,>
   var lines = temp.split(/\n+\s*/);
   var commonLength = NaN;
